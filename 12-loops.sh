@@ -42,8 +42,3 @@ do
   fi
 # yum install $i -y
 done 
-
-# improvements
-# implement log files
-# implement colors
-# implement validations

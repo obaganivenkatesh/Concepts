@@ -9,9 +9,9 @@ VALIDATE(){
     #$1--> it will receive the argument1
     if [ $1 -ne 0 ]
       then
-          echo "Installation..........Failure"
+          echo "$2..........Failure"
       else
-          echo "Installation.........Success"   
+          echo "$2.........Success"   
     fi
 }
 

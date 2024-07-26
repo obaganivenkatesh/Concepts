@@ -26,9 +26,9 @@ fi
 # it is our responsibility to check the installation is success or not
 yum install mysql -y
 
-VALIDATE $?
+VALIDATE $? "Installing MYSQL"
 
 # it is our responsibility to check the installation is success or not
 yum install postfix -y
 
-VALIDATE $?
+VALIDATE $? "Installing Postfix"

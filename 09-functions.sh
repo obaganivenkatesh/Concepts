@@ -40,6 +40,6 @@ yum install mysql -y &>>$LOGFILE
 VALIDATE $? "Installing MYSQL"
 
 # it is our responsibility to check the installation is success or not
-yum install postfix -y &>>$LOGFILE
+yum install postddfix -y &>>$LOGFILE
 
 VALIDATE $? "Installing Postfix"

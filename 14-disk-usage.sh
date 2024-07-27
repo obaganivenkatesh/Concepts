@@ -20,6 +20,7 @@ DISK_USAGE_THRESHOLD=1
 #IFS= means internal field separator in space
 while IFS= read line
 do
-   echo "output :$line"
-   
+# this command will give you usage in number format for comparision
+   echo (output :$line | awk '{print $6}' | cut -d % -f)
+
 done <<< $DISK_USAGE
